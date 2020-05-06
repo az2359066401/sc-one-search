@@ -5,10 +5,14 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/sc-one-search/sc-one-search-config-server
+          uri: https://github.com/az2359066401/sc-one-search/
           search-paths: config-file
-          username:
-          password:
+          username: 2359066401@qq.com
+          password: az910719
       label: master
 server:
-  port: 8767
+  port: 8787
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka
